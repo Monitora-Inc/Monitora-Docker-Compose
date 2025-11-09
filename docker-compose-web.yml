@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   web:
-    image: pedrobarbosa996/monitora:monitora-node
+    image: pedrobarbosa996/monitora:monitora-nodeweb
     container_name: monitora-web
     ports:
       - "3333:3333"
