@@ -12,7 +12,6 @@ services:
       MYSQL_PASSWORD: senha123
     volumes:
       - mysql_data:/var/lib/mysql
-      - ./Monitora-Banco/MonitoraScript.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - monitora-network
 
